@@ -1,22 +1,9 @@
 const router = require("express").Router();
 const Workout = require("../models/workouts.js");
 
-router.post("/api/workouts", ({ body }, res) => {
-    Workout.create({ body })
-      .then(dbWorkout => {
-        res.json(dbWorkout);
-      })
-      .catch(err => {
-        res.status(400).json(err);
-      });
-  });
-
-  
-const router = require("express").Router();
-const Workout = require("../models/workouts.js");
 
 router.post("/api/workouts", ({ body }, res) => {
-    Workout.create({ body })
+    Workout.create({})
       .then(dbWorkout => {
         res.json(dbWorkout);
       })
@@ -26,19 +13,9 @@ router.post("/api/workouts", ({ body }, res) => {
   });
   
   router.get("/api/workouts/range",function(req,res){  
-    Workout.find()
+    Workout.find().limit(7) //limit to last 7 days
     .then(dbWorkout =>{  
         res.json(dbWorkout)
-    })
-    .catch(err => { 
-        res.json(err)
-    })
-});
-
-router.post("/api/workouts/range",function (req,res){    
-    Workout.create({})
-    .then(dbWorkout => 
-        {res.json(dbWorkout)
     })
     .catch(err => { 
         res.json(err)
