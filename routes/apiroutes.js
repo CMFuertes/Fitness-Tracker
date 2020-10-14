@@ -34,3 +34,13 @@ router.post("/api/workouts", ({ body }, res) => {
         res.json(err)
     })
 });
+
+router.post("/api/workouts/range",function (req,res){    
+    Workout.create({})
+    .then(dbWorkout => 
+        {res.json(dbWorkout)
+    })
+    .catch(err => { 
+        res.json(err)
+    })
+});
