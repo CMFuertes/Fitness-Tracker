@@ -1,5 +1,5 @@
 const router = require("express").Router();
-const Workout = require("../models/workout.js");
+const Workout = require("../models/workouts.js");
 
 router.post("/api/workouts", ({ body }, res) => {
     Workout.create({ body })
@@ -13,7 +13,7 @@ router.post("/api/workouts", ({ body }, res) => {
 
   
 const router = require("express").Router();
-const Workout = require("../models/workout.js");
+const Workout = require("../models/workouts.js");
 
 router.post("/api/workouts", ({ body }, res) => {
     Workout.create({ body })
