@@ -54,7 +54,7 @@ Use this gain a clear picture of your workouts. To ee how many minutes you have 
 
 ## Tests
 
-Consistent use of nodemon, as well as troubleshooting through node server are done to run the application. 
+Consistent use of yarn start, in order to troubleshoot why the application may not be starting. 
 
 ## Contributing
 
