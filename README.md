@@ -72,4 +72,4 @@ If you have any questions, please contact CMFuertes at cristhal.fuertes@gmail.co
 
 MIT
 
-![GitHub](https://github.com/CMFuertes/Fitness-Tracker)
+![NPM](https://img.shields.io/npm/l/sta)
