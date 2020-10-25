@@ -1,59 +1,71 @@
-# Fitness-Tracker
+# Fitness-Tracker ![NPM](https://img.shields.io/npm/l/sta)
+
 
 # Unit 17 Nosql Homework: Workout Tracker
 
-For this assignment, you'll create a workout tracker. You have already been provided with the front end code in the `Develop` folder. This assignment will require you to create Mongo database with a Mongoose schema and handle routes with Express.
+https://ancient-dusk-16231.herokuapp.com/
 
-## User Story
 
-* As a user, I want to be able to view create and track daily workouts. I want to be able to log multiple exercises in a workout on a given day. I should also be able to track the name, type, weight, sets, reps, and duration of exercise. If the exercise is a cardio exercise, I should be able to track my distance traveled.
+## Table Of Contents 
 
-## Business Context
+1) [Introduction](#user) 
 
-A consumer will reach their fitness goals more quickly when they track their workout progress.
+2) [Description](#description)
 
-## Acceptance Criteria
+3) [Installation](#installation)
 
-When the user loads the page, they should be given the option to create a new workout or continue with their last workout.
+4) [Usage](#usage)
 
-The user should be able to:
+5) [License](#license)
 
-  * Add exercises to a previous workout plan.
+6) [Contributing](#contributing)
 
-  * Add new exercises to a new workout plan.
+7) [Tests](#tests)
 
-  * View the combined weight of multiple exercises on the `stats` page.
+7) [Questions](#questions)
+## User
 
-To deploy an application with a MongoDB database to Heroku, you'll need to set up a MongoDB Atlas account and connect a database from there to your application. Be sure to use the following guides for support:
+CMFuertes
 
-  * [Set Up MongoDB Atlas](../04-Important/MongoAtlas-Setup.md)
+## Email
 
-  * [Deploy with Heroku and MongoDB Atlas](../04-Important/MongoAtlas-Deploy.md)
+cristhal.fuertes@gmail.com
 
-## Commit Early and Often
+## Repository Name
 
-One of the most important skills to master as a web developer is version control. Building the habit of committing via Git is important for the following two reasons:
+Fitness Tracker 
 
-1. Your commit history is a signal to employers that you are actively working on projects and learning new skills.
+https://github.com/CMFuertes/Fitness-Tracker
 
-2. Your commit history allows you to revert your codebase in the event that you need to return to a previous state.
+## Description
 
-Follow these guidelines for committing:
+Use this fitness tracker to keep tabs on your workouts. With this app you will be able to view create and track daily workouts. Users will be able to log multiple exercises in a workout on a given day. Users can track the name, type, weight, sets, reps, and duration of exercise. 
 
-* Make single-purpose commits for related changes to ensure a clean, manageable history. If you are fixing two issues, make two commits.
 
-* Write descriptive, meaningful commit messages so that you and anyone else looking at your repository can easily understand its history.
+Link: https://ancient-dusk-16231.herokuapp.com/
 
-* Don't commit half-done work, for the sake of your collaborators (and your future self!).
+## Installation
 
-* Test your application before you commit to ensure functionality at every step in the development process.
+In order to edit this application, after cloning the repo, users are to enter the comand "yarn install" in order to obtain all of the required dependecies, which include express and mongoose. 
 
-We want you to have well over 200 commits by graduation, so commit early and often!
+## Usage
 
-## Submission on BCS
+Use this gain a clear picture of your workouts. To ee how many minutes you have worked on a given day as well as how much weight you have lifted over the course of a week. 
 
-You are required to submit the following:
+## Tests
 
-* The URL to the deployed application
+Consistent use of nodemon, as well as troubleshooting through node server are done to run the application. 
 
-* The URL to the GitHub repository
+## Contributing
+
+If users feel they can contribute useful contributions to this application, please email me. 
+
+## Questions
+
+If you have any questions, please contact CMFuertes at cristhal.fuertes@gmail.com
+
+## License
+
+MIT
+
+![GitHub](https://github.com/CMFuertes/Fitness-Tracker)
