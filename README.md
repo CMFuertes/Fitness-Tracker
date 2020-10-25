@@ -44,6 +44,10 @@ Use this fitness tracker to keep tabs on your workouts. With this app you will b
 
 Link: https://ancient-dusk-16231.herokuapp.com/
 
+![Screenshot 1](img/Fitness%20Tracker%201.png)
+![Screenshot 2](img/Fitness%20Tracker%202.png)
+![Screenshot 3](img/Fitness%20Tracker%203.png)
+
 ## Installation
 
 In order to edit this application, after cloning the repo, users are to enter the comand "yarn install" in order to obtain all of the required dependecies, which include express and mongoose. 
